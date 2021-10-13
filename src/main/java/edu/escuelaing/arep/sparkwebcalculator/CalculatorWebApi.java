@@ -10,6 +10,15 @@ package edu.escuelaing.arep.sparkwebcalculator;
  * @author Miguel
  */
 public class CalculatorWebApi {
+   
+ 
+    public double calculateLn(double value){
+        return Math.log(value);
     
+    }
+    public double calculateAtan(double value){
+    
+        return Math.atan(value);
+    }
     
 }
