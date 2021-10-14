@@ -39,7 +39,7 @@ Operaciones Asignadas:
 
 5. Desconectes de la máquina virtual e ingrese nuevamente para que la configuración de grupos de usuarios tenga efecto. Ejecute el siguiente comando para crear una instancia de la imagen creada en Dockerhub y para mapearlo a su puerto fisico 42000.
 
-- docker run -d -p 42000:6000 --name dockerimageaws javier3005/arep-parcial
+- docker run -d -p 42000:6000 --name CalculatorWebAws miguelfuquene1024/arepsegundocorteparcial
 
 6. Abra el puerto 42000 del security group de la máxima virtual para acceder al servicio
 7. Finalmente ingrese al url que le da su maquina virtual de AWS y añada a la url :42000/ln?value=3.1416 para probar la operacion logaritmo natural o :42000/atan?value=3.1416 para el arcotangente
